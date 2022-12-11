@@ -1,2 +1,9 @@
 # GratifyingGames
-The Official Gratifying Games Website. Made In Next in typescript and Tailwindcss using Github and VScode. Made by Jack Pangalia. Created on 2022-12-11
+The Official Gratifying Games Website
+
+Author : Jack Pangalia
+Program : Website 
+Program Used : Typescript, Tailwindcss, Github, Vscode
+Date of Creation : 2022-12-11
+
+
