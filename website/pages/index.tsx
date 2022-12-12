@@ -13,18 +13,20 @@ export default function Home() {
       </Head>
 
       <section className = "h-screen bg-gray-900 flex justify-center  ">
-        <div className = "mt-20 rounded-xl  flex bg-cover justify-center text-center items-center w-3/4 h-3/4 flex-col bg-[url('https://images.hdqwalls.com/wallpapers/planet-space-art-ka.jpg')]">
+        <div className = "mt-20 rounded-xl  flex bg-cover justify-center text-center items-center w-5/6 h-3/4 flex-col bg-[url('https://images.hdqwalls.com/wallpapers/planet-space-art-ka.jpg')]">
           <span className = "text-4xl text-white font-bold ">Dive into Ball Racers</span>
+          <p className = "text-white text-l w-1/2 mt-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati aperiam rem quibusdam, eos ratione dicta!</p>
 
-          <Link href = "#" className = " font-bold pr-12 pl-12 pt-4 pb-4 bg-red-400 rounded-3xl mt-10 hover:  text-white">Play Now</Link>
+          <Link href = "#" className = " font-bold pr-12 pl-12 pt-4 pb-4 hover:bg-white hover:text-red-400 bg-red-400 rounded-3xl mt-10 hover:  text-white">Play Now</Link>
         </div>
       </section>
 
-      <section className = "h-screen bg-slate-200 flex justify-center items-center">
-        <div className = "rounded-xl flex bg-cover justify-center items-center text-center w-3/4 h-3/4 flex-col bg-[url('https://i.pinimg.com/originals/d3/cf/a6/d3cfa6dea2ac714d8c5d7b865459f7d3.jpg')]">
-          <span className = "text-4xl text-white font-bold">Dive into Ball Bonkers</span>
+      <section className = "h-screen bg-white flex justify-center items-center">
+        <div className = "rounded-xl flex bg-cover justify-center items-center text-center w-5/6 h-3/4 flex-col bg-[url('https://4kwallpapers.com/images/walls/thumbs_3t/3792.jpg')]">
+          <span className = "text-4xl text-white outline-8  font-bold">Dive into Ball Bonkers</span>
+          <p className = "text-white text-l w-1/2 mt-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, esse tenetur sapiente amet quos dolorem?</p>
 
-          <Link href = "#" className = " font-bold pr-12 pl-12 pt-4 pb-4 bg-white rounded-3xl mt-10 hover:  text-black">Play Now</Link>
+          <Link href = "#" className = " font-bold pr-12 pl-12 pt-4 pb-4 bg-white rounded-3xl mt-10 text-emerald-200 hover:bg-emerald-300 hover:text-white">Play Now</Link>
         </div>
       </section>
     </>
