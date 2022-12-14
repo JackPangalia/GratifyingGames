@@ -14,7 +14,7 @@ const Navbar = () =>
         <div className = "text-sm sm:flex-grow">
 
           <Link href = "/" className = "block mt-4 sm:inline-block sm:mt-0 text-white hover:text-red-400 pl-2 pr-2">Home</Link>
-          <Link href = "/" className = "block mt-4 sm:inline-block sm:mt-0 text-white hover:text-red-400 pl-2 pr-2">Games</Link>
+          <Link href = "/ballBonkers" className = "block mt-4 sm:inline-block sm:mt-0 text-white hover:text-red-400 pl-2 pr-2">Games</Link>
           <Link href = "/about" className = "block mt-4 sm:inline-block sm:mt-0 text-white hover:text-red-400 pl-2 pr-2">About</Link>
           <Link href = "/" className = "block mt-4 sm:inline-block sm:mt-0 text-white hover:text-red-400 pl-2 pr-2">Blog</Link>
 
