@@ -20,10 +20,6 @@ const Navbar = () =>
 
         </div>  
 
-        {/* SEARCH BAR */}
-        <div className = "sm:inline-block flex-col mt-4 md:mt-0  py-3 w-full sm:w-1/3 mr-10">
-          <input className = "p-3 rounded-xl text-center text-red-400 bg-gray-800 w-full border border-red-400" type = "text" placeholder="Search"></input>
-        </div>
       </div>
 
     </nav>
