@@ -11,25 +11,26 @@ const ballBonkersDownload = () => {
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
       </Head>
 
-      <main className = "bg-gray-900">
+      <main className = "bg bg-gray-900">
 
-        <div className = "flex w-full h-screen">
-          <div className = "w-full h-full ">
-            <div className = "h-full bg-cover bg-[url('https://img.freepik.com/free-vector/colorful-abstract-liquid-effect-background_1393-321.jpg?w=2000')]">
-              <header className = "flex justify-center">
-                <h1 className = "text-red-400 text-5xl font-bold mt-20">Ball Racers</h1>
-              </header>
-
-              <article className = "flex justify-center mt-14">
-                <p className = "text-gray-900 text-2xl font-semibold w-1/2 text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde, aperiam quasi? Ab delectus illum iste esse ad ipsam amet porro!</p>
-              </article>
-            </div>
+        <section className = "flex items-center flex-col">
+          <div className = "border text-center p-5 rounded-xl w-2/3">
+            <span className = "text-3xl font-bold text-red-400">About Ball Bonkers</span>
+            <p className = " text-white text-l text-center mt-5 m-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores natus facilis nobis vel aperiam aliquam Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero nihil enim itaque..</p>
           </div>
+        </section>
 
-        
+        <section className = "flex items-center flex-col">
+          <div className = "border text-center p-5 rounded-xl w-2/3">
+            <span className = "text-3xl font-bold text-red-400">About Ball Bonkers</span>
+            <p className = " text-white text-l text-center mt-5 m-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores natus facilis nobis vel aperiam aliquam Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero nihil enim itaque..</p>
+          </div>
+        </section>
 
-        </div>
+
       </main>
+
+
     </>
   )
 }

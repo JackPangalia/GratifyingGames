@@ -17,8 +17,11 @@ export default function Home() {
         <div className = "mt-20 rounded-xl  flex bg-cover justify-center text-center items-center w-5/6 h-3/4 flex-col bg-[url('https://images.hdqwalls.com/wallpapers/planet-space-art-ka.jpg')]">
           <span className = "text-4xl text-white font-bold ">Race into Ball Racers</span>
           <p className = "text-white text-l w-1/2 mt-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati aperiam rem quibusdam, eos ratione dicta!</p>
-
-          <Link href = "#" className = " font-bold pr-12 pl-12 pt-4 pb-4 hover:bg-white hover:text-red-400 bg-red-400 rounded-3xl mt-10 hover:  text-white">Play Now</Link>
+          
+          <div className = "mt-10 space-x-5">
+            <Link href = "#" className = " font-bold pr-12 pl-12 pt-4 pb-4 hover:bg-white hover:text-red-400 bg-red-400 rounded-3xl  hover: text-white ">Learn more</Link>
+            <Link href = "#" className = " font-bold pr-12 pl-12 pt-4 pb-4 hover:bg-white hover:text-red-400 bg-red-400 rounded-3xl  hover: text-white">Download Now</Link>
+          </div>
         </div>
       </section>
 
@@ -27,7 +30,10 @@ export default function Home() {
           <span className = "text-4xl text-white outline-8  font-bold">Roll into Ball Bonkers</span>
           <p className = "text-white text-l w-1/2 mt-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, esse tenetur sapiente amet quos dolorem?</p>
 
-          <Link href = "#" className = " font-bold pr-12 pl-12 pt-4 pb-4 bg-white rounded-3xl mt-10 text-emerald-200 hover:bg-emerald-300 hover:text-white">Play Now</Link>
+          <div className = "mt-10 space-x-5">
+            <Link href = "/ballBonkers" className = " font-bold pr-12 pl-12 pt-4 pb-4 bg-emerald-300 rounded-3xl mt-10 text-white hover:bg-white hover:text-emerald-300">Learn more</Link>
+            <Link href = "/ballBonkers" className = " font-bold pr-12 pl-12 pt-4 pb-4 bg-emerald-300 rounded-3xl mt-10 text-white hover:bg-white hover:text-emerald-300">Download Now</Link>
+          </div>
         </div>
       </section>
     </>
