@@ -13,30 +13,30 @@ const about = () =>
       </Head>
 
       {/* STRUCTURE CODE */}
-      <main className = "bg-gray-900">
+      <main className = "bg-gray-900 h-screen">
         <header className = "flex justify-center">
-          <h1 className = "text-red-400 text-4xl mt-20 font-bold">About Us</h1>
+          <h1 className = "bg-clip-text text-transparent bg-gradient-to-tr from-red-400 to-white text-6xl mt-20 font-bold">About Us.</h1>
         </header>
 
         <div className = "text-center m-auto lg:w-1/3 w-full mb-20 lg:mb-0 ">
             <p className = "text-xl mr-5 ml-5 text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia quasi illum officiis, corrupti sunt numquam! Lorem ipsum dolor sit amet.</p>
         </div>
 
-        <div className = "h-fit lg:h-screen">
+        <div className = "h-2/3">
           <section className = "flex h-full flex-col lg:flex-row items-center lg:items-center space-y-10 lg:space-y-0 lg:space-x-10 mr-6 ml-6">
-            <div className = "  lg:w-1/2 w-full lg:h-1/2 bg-gray-800 border bg-cover border-red-400 rounded-xl flex justify-center items-center flex-col text-center h-fit bg-[url('https://media.istockphoto.com/id/1281085673/photo/closeup-of-abstract-colorful-fluid-background-highly-textured-high-quality-details.jpg?s=170667a&w=0&k=20&c=ns8UQ8W6iFo5AYXNXAJx8Itjfmvs3ZwoCYwMqwr4Ers=')]">
+            <div className = "  lg:w-1/2 w-full lg:h-2/3 bg-gray-800 border bg-cover border-red-400 rounded-xl flex justify-center items-center flex-col text-center h-fit bg-gradient-to-t from-red-400 to-red-200">
               <span className = "text-white text-3xl font-bold mt-10">The Orgin</span>
                 
               <p className = "font-semibold mb-10 mt-5 w-4/5 text-white">Jack is a young boy from the streets of Boliva. He grew up with only his mom as his dad was killed by the cartel when he was a young boy. Jack got taken by the cartel and forced to make websites so they could sell their illegal drugs. But after Jack was finsished with the cartel he decided to make video games, and this is the first one he made called Ball Bonkers.</p>
             </div>
 
-            <div className = "lg:w-1/2 w-full h-1/2 bg-gray-800 border border-red-400 rounded-xl flex justify-center items-center flex-col text-center bg-cover bg-[url('https://w0.peakpx.com/wallpaper/922/842/HD-wallpaper-violet-liquid-background-liquid-textures-waves-textures-wavy-backgrounds-violet-backgrounds-water-textures-abstract-waves-backgrounds.jpg')]">
+            <div className = "lg:w-1/2 w-full h-2/3 bg-gray-800 border border-red-400 rounded-xl flex justify-center items-center flex-col text-center bg-cover bg-gradient-to-t from-red-400 to-red-200">
               <span className = "mt-10 text-white text-3xl font-bold">Our Plans</span>
 
-              <p className = "mt-5 w-4/5 mb-10 font-semibold text-white">Our plan here at Gratifying Games is to try our best to produce only the best games for you, while also taking aas much money with our overpriced in game products. We plan to make mutiple games for you all for free 😏😏😏😏.</p>
+              <p className = "mt-5 w-4/5 mb-10 font-semibold text-white">Our plan here at Gratifying Games is to try our best to produce only the best games for you, while also taking aas much money with our overpriced in game products. We plan to make mutiple games for you all for free.</p>
             </div>
             
-            <div className = " lg:w-1/2 h-1/2 w-full bg-gray-800 border border-red-400 rounded-xl flex justify-center items-center flex-col text-center bg-cover bg-[url('https://static.vecteezy.com/system/resources/previews/006/110/064/original/vibrant-liquid-wavy-decorative-background-in-abstract-style-colorful-fluid-wallpaper-free-vector.jpg')] ">
+            <div className = " lg:w-1/2 h-2/3 w-full bg-gray-800 border border-red-400 rounded-xl flex justify-center items-center flex-col text-center bg-cover bg-gradient-to-t from-red-400 to-red-200 ">
               <span className = "mt-10 text-white text-3xl font-bold">What We Do</span>
 
               <p className = "mb-10 mt-5 w-4/5 font-semibold text-white">At Gratifying Games HQ we are all about fun, we make sure that we have no woman employes to make sure that the games are top of the line. We also have a side bussnies where we human trafic little kids with all of our frugs coming out of Boliva and Colombia.</p>
